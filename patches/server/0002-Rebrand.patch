@@ -5,10 +5,10 @@ Subject: [PATCH] Rebrand
 
 
 diff --git a/pom.xml b/pom.xml
-index f102c979b998d156c18e5da151d3719a180fe11d..474c874b82fc86530ecd7a6fb4b5c29307255c65 100644
+index 4a4d62334405b79f20ae59a76cb1d663deb55877..c78ae499173f39c8841d50e076846f4a78d5bce7 100644
 --- a/pom.xml
 +++ b/pom.xml
-@@ -46,8 +46,10 @@
+@@ -39,8 +39,10 @@
  
      <dependencies>
          <dependency>
@@ -21,7 +21,7 @@ index f102c979b998d156c18e5da151d3719a180fe11d..474c874b82fc86530ecd7a6fb4b5c293
              <version>${project.version}</version>
              <scope>compile</scope>
          </dependency>
-@@ -202,6 +204,14 @@
+@@ -195,6 +197,14 @@
          </dependency>
      </dependencies>
  
@@ -36,7 +36,7 @@ index f102c979b998d156c18e5da151d3719a180fe11d..474c874b82fc86530ecd7a6fb4b5c293
      <!-- This builds a completely 'ready to start' jar with all dependencies inside -->
      <build>
          <finalName>tuinity-${minecraft.version}</finalName>
-@@ -407,8 +417,15 @@
+@@ -400,8 +410,15 @@
                      <dependency>
                          <groupId>org.eclipse.jdt</groupId>
                          <artifactId>ecj</artifactId>
